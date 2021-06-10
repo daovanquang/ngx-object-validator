@@ -1,5 +1,5 @@
 const {Validate} = require("./models/validate");
-const QuickValidate = require("./index");
+const ObjectValidator = require("./index");
 
 const user = {
     username: '',

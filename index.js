@@ -234,7 +234,9 @@ class ObjectValidator {
 
            const isValidatos = ObjectUtils.containsOnly(childObjValidator, VALIDATOR_KEY);
            if(isValidatos){
-               message = this.getMessageFromValidators(childObjValidator.validators, prefix.concat(SEPERATOR).concat(key), message);
+               const prx = !prefix || prefix.trim()==="" ? key : prefix.concat(SEPERATOR).concat(key)
+
+               message = this.getMessageFromValidators(childObjValidator.validators, prx, message);
                continue;
            }
 
