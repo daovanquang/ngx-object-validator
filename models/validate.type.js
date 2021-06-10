@@ -1,0 +1,25 @@
+const VALIDATE_TYPE = {
+    REQUIRED: 'REQUIRED',
+
+    BLANK: 'BLANK',
+    NOT_BLANK: 'NOT_BLANK',
+
+    EMPTY: 'EMPTY',
+    NOT_EMPTY: 'NOT_EMPTY',
+
+    MIN: 'MIN',
+    EQUALS: 'EQUALS',
+    MAX: 'MAX',
+
+    MIN_LENGTH: 'MIN_LENGTH',
+    MAX_LENGTH: 'MAX_LENGTH',
+    LENGTH: 'LENGTH',
+
+    PATTERN: 'PATTERN',
+
+    CONTAINS: 'CONTAINS',
+};
+
+module.exports = {
+    VALIDATE_TYPE
+}

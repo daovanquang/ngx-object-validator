@@ -1,0 +1,32 @@
+{
+  "name": "ngx-object-validator",
+  "version": "1.0.0",
+  "description": "Easy validate object",
+  "main": "index.js",
+  "bin": {
+    "": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ngx-object-validator"
+  },
+  "keywords": [
+    "validate",
+    "validator",
+    "utilities",
+    "ngx-validate",
+    "ngx-validator",
+    "easy",
+    "easy-validator",
+    "ngx-object-validator"
+  ],
+  "author": "DAO VAN QUANG",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
